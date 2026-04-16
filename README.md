@@ -33,11 +33,6 @@
 
 </details>
 
-diinki-retrofuture is a rice that revolves around [this](https://youtu.be/jFz5gLqv-FM) youtube
-video, where I teach how to make this exact rice from scratch. Naturally, the github version
-has cleaner config files and more comments, I bid you a read of the config files and code; you will need to
-edit some lines yourself regardless.
-
 This project also includes a GTK3/4 theme which matches the aesthetic.
 
 ## 📌 Installation Steps
