@@ -1,9 +1,5 @@
 ## 📌 Installation Steps
 
-Feel free to watch [this part of my video](https://youtu.be/jFz5gLqv-FM&t=1903) where I demonstrate how to install this rice.
-
-**I assume you use arch / arch-based, but the steps should be similar regardless.**
-
 1. `Installation`
    - Run `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf dconf-editor` in your terminal.
    - Run `yay eww` in your terminal (you will need to install yay).
@@ -60,10 +56,6 @@ This rice uses the following tools and softwares:
 - `themix-oomix` (Used to create the non GTK4 themes.)
 - `network-manager-applet` (Used for tray and other nm things, probably installed with your OS by default.)
 - `eww` (Widgets)
-
-> ℹ️ In the guide I used EndeavorOS with Gnome as a basis and showed how to switch from gnome
-> to sway. In order to boot between swaygnome I decided to demonstrate the `ly` login
-> manager.
 
 - `ly` Login/Display manager that's used.
 
@@ -123,12 +115,6 @@ files to your system `/usr/share/fonts` directory, then update the font cache by
 
 I recommend using the included GTK theme, however for the icon theme you may pick whichever you like. The
 GTK theme is likely what would change most if I ever update this rice.
-
-## Alternate Version:
-
-The `alternate_version` directory contains alternate configs for alternate designs of this rice.
-it's an alternate style that incorporates blur and corner radii into the design, yet maintains
-the same colors.
 
 **Note**: Using the alternate version will require either using the alternate
 `hypr` config with `hyprland`, or installing `swayfx` so you can set-up blur; the alternate
